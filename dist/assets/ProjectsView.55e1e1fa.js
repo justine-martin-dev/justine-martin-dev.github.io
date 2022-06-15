@@ -1,0 +1,1 @@
+import{_ as e,o as s,c}from"./index.d7071281.js";const o={},r={class:"black page"};function t(a,n){return s(),c("div",r,"Mes projets :) Ah ? C'est vide.... Normal je fous rien =^.^=")}var i=e(o,[["render",t]]);export{i as default};
