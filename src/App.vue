@@ -7,18 +7,14 @@
 
 <template>
 	<main>
-		<header>
-			<div class="navbar-fixed">
-				<nav class="transparent z-depth-0">
-					<div class="nav-wrapper">
-						<ul class="right">
-							<li><router-link :to="{ name: 'home'}">Me découvrir</router-link></li>
-							<li><router-link :to="{ name: 'projects'}">Mes projets</router-link></li>
-						</ul>
-					</div>
-				</nav>
+		<nav class="navbar fixed-top navbar-expand navbar-dark">
+			<div class="container-fluid">
+				<ul class="navbar-nav ms-auto">
+					<li class="nav-item"><router-link class="nav-link" :to="{ name: 'home'}">Me découvrir</router-link></li>
+					<li class="nav-item"><router-link class="nav-link" :to="{ name: 'projects'}">Mes projets</router-link></li>
+				</ul>
 			</div>
-		</header>
+		</nav>
 
 		<RouterView />
 	</main>
@@ -34,8 +30,8 @@
 		height: 100%;
 	}
 
-	header {
-		position: absolute;
+	nav .navbar-nav li a{
+		color: white !important;
 	}
 
 	.page {

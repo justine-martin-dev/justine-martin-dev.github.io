@@ -1,14 +1,10 @@
 @charset "UTF-8";
 
-@import "../node_modules/materialize-css/sass/components/_color-variables.scss";
+$primary: #ff2391;
+$secondary: #c2185b;
 
-$primary-color: #ff2391;
-$secondary-color: color("pink", "darken-2");
-$link-color: color("light-blue", "darken-1");
-$off-black: rgba(255, 255, 255, 0.87);
+$body-color: #ffffff;
+$body-bg: #000000;
+$headings-color: #ffffff;
 
-/*body {
-	background-color: darken($primary-color, 3%);
-}*/
-
-@import '../node_modules/materialize-css/sass/materialize.scss';
+@import "../node_modules/bootstrap/scss/bootstrap";

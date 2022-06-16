@@ -8,7 +8,7 @@
 </script>
 
 <template>
-	<div id="home" class="valign-wrapper page">
+	<div id="home" class="page d-flex align-items-center justify-content-center">
 		<Particles
                 id="space-welcome-particles"
 				:particlesInit="initParticles"
@@ -32,11 +32,6 @@
 						},
 						'polygon': {
 							'nb_sides': 5
-						},
-						'image': {
-							'src': 'img/github.svg',
-							'width': 100,
-							'height': 100
 						}
 					},
 					'opacity': {
@@ -110,22 +105,23 @@
 					}
 				},
 				'style': {
-					'position': 'absolute'
+					'position': 'absolute',
+					'z-index': '0'
 				},
 				'detectRetina': true
 			}"
 		/>
 
-		<div class="row container" id="space-welcome-content">
+		<div class="row" id="space-welcome-content">
 			<div class="row">
-				<div class="col s12 center-align">
+				<div class="col-12 text-center">
 					<h1>Justine Martin</h1>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col s12 center-align">
-					<a class="btn btn-large" href="#presentation">Ahahah regarde je suis intéressante :)</a>
-					<a class="btn btn-large" href="#">Télécharger le CV</a>
+				<div class="col-12 text-center">
+					<a class="btn btn-outline-light" href="#presentation">Ahahah regarde je suis intéressante :)</a>
+					<a class="ms-4 btn btn-outline-light" href="#">Télécharger le CV</a>
 				</div>
 			</div>
 		</div>

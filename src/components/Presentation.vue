@@ -3,9 +3,9 @@
 </script>
 
 <template>
-	<div id="presentation" class="page ">
+	<div id="presentation" class="page">
 		<div class="row container">
-			<div class="col s12">
+			<div class="col-12">
 				<h1>Un contenu cool :)</h1>
 				<p>Ou pas ?</p>
 			</div>
@@ -14,7 +14,4 @@
 </template>
 
 <style>
-	#presentation {
-		background-color: #000000;
-	}
 </style>
